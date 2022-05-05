@@ -3,23 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="description" content="CPS - Услуги и сервисы по ремонту оргтехники">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon">
-  <title>CPS Site Page</title>
-<link href="style.css" rel="stylesheet"></head>
+  <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
 <body>
 <div class="wrapper">
   <nav class="menu">
     <div class="container-menu">
       <header class="menu__header">
-        <button type="button" class="rounded-button rounded-button--icon rounded-button--icon--close rounded-button--menu">
+        <button
+          type="button"
+          class="rounded-button rounded-button--icon rounded-button--icon--close rounded-button--menu">
           Закрыть меню
         </button>
-        <div class="logo logo--mobile">
+        <div class="logo logo--mobile ">
           <img src="img/icons/logo.svg" alt="logo" class="logo__image" width="98" height="52">
         </div>
-        <button type="button" class="rounded-button rounded-button--icon rounded-button--icon--search2 rounded-button--menu">
+        <button
+          type="button"
+          class="rounded-button rounded-button--icon rounded-button--icon--search2 rounded-button--menu">
           поиск
         </button>
       </header>
@@ -35,15 +39,21 @@
       </ul>
       <footer class="menu__footer">
         <div class="menu__footer-buttons">
-          <button type="button" class="rounded-button rounded-button--icon rounded-button--icon--callback rounded-button--menu">
+          <button
+            type="button"
+            class="rounded-button rounded-button--icon rounded-button--icon--callback rounded-button--menu">
             Заказать
             звонок
           </button>
-          <button type="button" class="rounded-button rounded-button--icon rounded-button--icon--message rounded-button--menu">
+          <button
+            type="button"
+            class="rounded-button rounded-button--icon rounded-button--icon--message rounded-button--menu">
             Обратная
             связь
           </button>
-          <button type="button" class="rounded-button rounded-button--icon rounded-button--icon--profile rounded-button--menu">Профиль
+          <button
+            type="button"
+            class="rounded-button rounded-button--icon rounded-button--icon--profile rounded-button--menu">Профиль
           </button>
         </div>
         <a href="mailto:mail@cps.com" class="menu__footer-email">mail@cps.com</a>
@@ -60,32 +70,44 @@
     <div class="container">
       <div class="header__navigation">
         <div class="header__buttons-block header__buttons-block--divider--right">
-          <button type="button" class="rounded-button rounded-button--icon rounded-button--icon--burger rounded-button--navigation">
+          <button
+            type="button"
+            class="rounded-button rounded-button--icon rounded-button--icon--burger rounded-button--navigation">
             Меню
           </button>
         </div>
-        <div class="logo logo--mobile">
+        <div class="logo logo--mobile ">
           <img src="img/icons/logo.svg" alt="logo" class="logo__image" width="98" height="52">
         </div>
         <div class="header__buttons-block header__tablet-buttons">
-          <button type="button" class="rounded-button rounded-button--icon rounded-button--icon--callback rounded-button--navigation">
+          <button
+            type="button"
+            class="rounded-button rounded-button--icon rounded-button--icon--callback rounded-button--navigation ">
             Заказать
             звонок
           </button>
-          <button type="button" class="rounded-button rounded-button--icon rounded-button--icon--message rounded-button--navigation">
+          <button
+            type="button"
+            class="rounded-button rounded-button--icon rounded-button--icon--message rounded-button--navigation ">
             Обратная
             связь
           </button>
-          <button type="button" class="rounded-button rounded-button--icon rounded-button--icon--profile rounded-button--navigation">
+          <button
+            type="button"
+            class="rounded-button rounded-button--icon rounded-button--icon--profile rounded-button--navigation ">
             Профиль
           </button>
         </div>
         <div class="header__buttons-block header__buttons-block--divider--left">
-          <button type="button" class="rounded-button rounded-button--icon rounded-button--icon--services rounded-button--navigation">
+          <button
+            type="button"
+            class="rounded-button rounded-button--icon rounded-button--icon--services rounded-button--navigation">
             Статус
             ремонта
           </button>
-          <button type="button" class="rounded-button rounded-button--icon rounded-button--icon--search1 rounded-button--navigation">
+          <button
+            type="button"
+            class="rounded-button rounded-button--icon rounded-button--icon--search1 rounded-button--navigation ">
             Оставить
             заявку
           </button>
@@ -98,11 +120,15 @@
       <div class="container">
         <h1 class="title">
           Услуги и сервисы
-          <button type="button" class="rounded-button rounded-button--icon rounded-button--icon--services rounded-button--title">
+          <button
+            type="button"
+            class="rounded-button rounded-button--icon rounded-button--icon--services rounded-button--title">
             Статус
             ремонта
           </button>
-          <button type="button" class="rounded-button rounded-button--icon rounded-button--icon--search1 rounded-button--title">
+          <button
+            type="button"
+            class="rounded-button rounded-button--icon rounded-button--icon--search1 rounded-button--title">
             Оставить
             заявку
           </button>
@@ -110,7 +136,8 @@
         <div class="about__navigation-wrapper">
           <nav class="about__menu">
             <ul class="about__menu-list">
-              <li class="about__menu-list-item about__menu-list-item--active"><a href="#" class="about__menu-link">Ремонтируемые
+              <li class="about__menu-list-item about__menu-list-item--active"><a href="#"
+                                                                                 class="about__menu-link">Ремонтируемые
                 устройства</a></li>
               <li class="about__menu-list-item"><a href="#" class="about__menu-link">Дополнительные
                 услуги</a></li>
@@ -388,7 +415,9 @@
   </footer>
 </div>
 <form action="#" class="modal modal--feedback">
-  <button type="button" class="rounded-button rounded-button--icon rounded-button--icon--close rounded-button--modal">
+  <button
+    type="button"
+    class="rounded-button rounded-button--icon rounded-button--icon--close rounded-button--modal">
     Закрыть окно обратной связи
   </button>
   <div class="container">
@@ -396,7 +425,9 @@
     <input type="text" class="modal__input" name="user-name" placeholder="Имя">
     <input type="tel" class="modal__input" name="user-phone" pattern="[+]{1}[0-9]{11,14}" placeholder="Телефон">
     <input type="email" class="modal__input" name="user-email" placeholder="Электронная почта">
-    <textarea class="modal__input modal__input--textarea" name="user-message" cols="30" rows="5" placeholder="Сообщение"></textarea>
+    <textarea
+      class="modal__input modal__input--textarea"
+      name="user-message" cols="30" rows="5" placeholder="Сообщение"></textarea>
     <p class="modal__personal-policy">
       Нажимая “отправить”, вы даете согласие на <a href="#">обработку персональных данных</a> и соглашаетесь с нашей
       <a href="#">политикой конфиденциальности</a>
@@ -405,7 +436,9 @@
   </div>
 </form>
 <form action="#" class="modal modal--callback">
-  <button type="button" class="rounded-button rounded-button--icon rounded-button--icon--close rounded-button--modal">
+  <button
+    type="button"
+    class="rounded-button rounded-button--icon rounded-button--icon--close rounded-button--modal">
     Закрыть окно заказа обратного звонка
   </button>
   <div class="container">
@@ -418,5 +451,5 @@
     <button type="submit" class="order-button order-button--modal order-button--modal--right">Отправить</button>
   </div>
 </form>
-<script type="text/javascript" src="./js/bundle.js"></script></body>
+</body>
 </html>
