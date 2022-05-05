@@ -1,28 +1,28 @@
-@import '~normalize.css';
-@import '~reset-css';
+@import "~normalize.css";
+@import "~reset-css";
 
-@import 'fonts';
-@import 'vars';
+@import "fonts";
+@import "vars";
 
-@import 'blocks/container';
-@import 'blocks/header';
-@import 'blocks/logo';
-@import 'blocks/section';
-@import 'blocks/main';
-@import 'blocks/title';
-@import 'blocks/rounded-button';
-@import 'blocks/menu';
-@import 'blocks/lang-switcher';
-@import 'blocks/go-further';
-@import 'blocks/slider';
-@import 'blocks/footer';
-@import 'blocks/modal';
-@import 'blocks/order-button';
+@import "blocks/container";
+@import "blocks/header";
+@import "blocks/logo";
+@import "blocks/section";
+@import "blocks/main";
+@import "blocks/title";
+@import "blocks/rounded-button";
+@import "blocks/menu";
+@import "blocks/lang-switcher";
+@import "blocks/go-further";
+@import "blocks/slider";
+@import "blocks/footer";
+@import "blocks/modal";
+@import "blocks/order-button";
 
-@import 'sections/about';
-@import 'sections/brands';
-@import 'sections/services';
-@import 'sections/prices';
+@import "sections/about";
+@import "sections/brands";
+@import "sections/services";
+@import "sections/prices";
 
 body {
   font-family: $main-font-family;
@@ -65,7 +65,7 @@ a {
 }
 
 .swiper-pagination-bullet-active {
-  background: #B5B6BC;
+  background: #b5b6bc;
 }
 
 .swiper-wrapper {
