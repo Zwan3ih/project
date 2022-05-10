@@ -1359,8 +1359,7 @@ table {
   margin-bottom: 20px;
 }
 @media (min-width: 768px) {
-  .menu__list {overflow: hidden;}
-  .menu{overflow: hidden;}
+  
 }
 .menu__list a {
   display: block;
@@ -1377,7 +1376,7 @@ table {
 @media (min-width: 768px) {
   .menu__list-item {
     margin: 24px 0;
-    overflow: hidden;
+    ;
   }
 }
 .menu__link--active {
@@ -2257,7 +2256,7 @@ a {
 @media (min-width: 768px) {
   .container-menu {
     padding: 0 24px;
-    height: 811px
+    
   }
 }
 
@@ -2269,6 +2268,9 @@ a {
   height: auto;
 }
 .about__menu::-webkit-scrollbar {
+  width: 0;
+}
+::-webkit-scrollbar {
   width: 0;
 }
 
