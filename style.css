@@ -2268,5 +2268,8 @@ a {
 .swiper-wrapper {
   height: auto;
 }
+.about__menu::-webkit-scrollbar {
+  width: 0;
+}
 
 /*# sourceMappingURL=style.css.map*/
